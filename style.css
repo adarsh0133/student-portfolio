@@ -60,23 +60,22 @@
   }
 }
 
-@media (max-width:431px) {
+@media (max-width:431px)  {
     .project-info{
-        display: flex;
-        justify-content: center;
-        align-items: start;
-        padding-left: 30px;
-        width: 100vw;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: start !important;
+        padding-left: 30px !important;
+        width: 100vw !important;
     }
     .project-img{
-        width: 40vh;
-        height: 28vh;
+        width: 40vh !important;
+        height: 28vh !important;
     }
 
     .certificate-image{
-        background-color: red;
-        width: 40vh;
-        height: 30vh;
+        width: 40vh !important;
+        height: 30vh !important;
     }
 
 }
