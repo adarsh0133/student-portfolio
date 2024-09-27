@@ -80,6 +80,26 @@
 
 }
 
+@media (max-width:481px)  {
+    .project-info{
+        display: flex !important;
+        justify-content: center !important;
+        align-items: start !important;
+        padding-left: 30px !important;
+        width: 100vw !important;
+    }
+    .project-img{
+        width: 40vh !important;
+        height: 28vh !important;
+    }
+
+    .certificate-image{
+        width: 40vh !important;
+        height: 30vh !important;
+    }
+
+}
+
 .vertical-marquee h1 {
   margin-left: 20px;
   font-size: 4vw;
